@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Conda Tutorial</title>
+      <link href="/2023/07/08/Conda-Tutorial/"/>
+      <url>/2023/07/08/Conda-Tutorial/</url>
+      
+        <content type="html"><![CDATA[<p>☞ <a href="https://www.anaconda.com/download/">Anaconda下载地址</a></p><p>如果只是想要使用conda，可以选择Miniconda，更轻量 ☞ <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda下载地址</a></p><h2 id="环境管理"><a href="#环境管理" class="headerlink" title="环境管理"></a>环境管理</h2><h3 id="创建环境"><a href="#创建环境" class="headerlink" title="创建环境"></a>创建环境</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n env_name python=3.10</span><br></pre></td></tr></table></figure><h3 id="激活环境"><a href="#激活环境" class="headerlink" title="激活环境"></a>激活环境</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda activate env_name</span><br></pre></td></tr></table></figure><h3 id="退出环境"><a href="#退出环境" class="headerlink" title="退出环境"></a>退出环境</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda deactivate env_name</span><br></pre></td></tr></table></figure><h3 id="删除环境"><a href="#删除环境" class="headerlink" title="删除环境"></a>删除环境</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda remove -n env_name --all</span><br></pre></td></tr></table></figure><h3 id="查看环境"><a href="#查看环境" class="headerlink" title="查看环境"></a>查看环境</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda info -e</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env list</span><br></pre></td></tr></table></figure><h2 id="Conda的包管理"><a href="#Conda的包管理" class="headerlink" title="Conda的包管理"></a>Conda的包管理</h2><h3 id="安装包"><a href="#安装包" class="headerlink" title="安装包"></a>安装包</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install package_name</span><br></pre></td></tr></table></figure><h2 id="镜像地址"><a href="#镜像地址" class="headerlink" title="镜像地址"></a>镜像地址</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ </span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ </span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><p>参考资料：<br><a href="https://zhuanlan.zhihu.com/p/44398592">Conda使用指南</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/07/07/hello-world/"/>
       <url>/2023/07/07/hello-world/</url>
